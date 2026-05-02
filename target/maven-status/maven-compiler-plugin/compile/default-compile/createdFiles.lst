@@ -1,0 +1,6 @@
+com\veysure\rbw\ingame\sync\RoleSync.class
+com\veysure\rbw\ingame\sync\commands\RoleSyncCommand.class
+com\veysure\rbw\ingame\sync\utils\DatabaseManager$1.class
+com\veysure\rbw\ingame\sync\RolesSyncBot.class
+com\veysure\rbw\ingame\sync\listeners\PlayerEventListener.class
+com\veysure\rbw\ingame\sync\utils\DatabaseManager.class

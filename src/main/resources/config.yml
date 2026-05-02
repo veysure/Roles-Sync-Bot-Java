@@ -1,0 +1,27 @@
+discord-bot-token: "YOUR_DISCORD_BOT_TOKEN_HERE"
+discord-guild-id: "YOUR_DISCORD_GUILD_ID_HERE"
+
+debug: false
+
+rolesync:
+  # Discord Role ID -> Minecraft LuckPerms Group
+  # Example: "123456789012345678": "admin"
+  # Replace with your actual Discord role IDs and LuckPerms group names
+  "123456789012345678": "admin"
+  "987654321098765432": "moderator"
+  "555555555555555555": "member"
+
+
+
+# Database configuration for storing player-discord links
+database:
+  type: "file" # or "mysql", "sqlite"
+  file: "plugins/RolesSyncBot/links.json"
+  
+  # MySQL settings (if using mysql)
+  mysql:
+    host: "localhost"
+    port: 3306
+    database: "minecraft"
+    username: "root"
+    password: "password"
